@@ -3,14 +3,13 @@ html, body  {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     height: 100%;
-
 }
 
 .hero-text, .header, .hero-content  {
     background-color: #1F2937;
 }
 
-.hero-text p, .header li, .hero-text button  {
+.hero-text p, .header li, .hero-text button, .sign-up-button  {
     font-size: 18px;
     color: #F9FAF8;
 }
@@ -133,3 +132,39 @@ html, body  {
     align-self: center;
 }
 
+.sign-up  {
+    width: 1000px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    align-self: center;
+    border-radius: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.sign-up-header  {
+    font-weight: 700;
+}
+
+.sign-up-button  {
+    background-color: #3882F6;
+    padding: 10px;
+    font-weight: 500;
+    border-color: #F9FAF8;
+    border-radius: 12px;
+}
+
+.footer  {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}

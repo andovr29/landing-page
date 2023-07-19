@@ -3,13 +3,14 @@ html, body  {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     height: 100%;
+
 }
 
 .hero-text, .header, .hero-content  {
     background-color: #1F2937;
 }
 
-.hero-text p, .header li  {
+.hero-text p, .header li, .hero-text button  {
     font-size: 18px;
     color: #F9FAF8;
 }
@@ -19,6 +20,7 @@ html, body  {
     justify-content: space-evenly;
     align-items: center;
     gap: 500px;
+    flex-wrap: wrap;
 }
 
 .logo  {
@@ -44,12 +46,14 @@ html, body  {
     padding-top: 70px;
     padding-bottom: 70px;
     align-items: flex-start;
+    flex-wrap: wrap;
 
 }
 .hero-content img  {
     height: auto;
     width: 500px;
-    flex: initial
+    flex: initial;
+    
 }
 .hero-text h1  {
     font-size: 48px;
@@ -73,5 +77,59 @@ html, body  {
     border-radius: 12px;
 }
 
+.info-header  {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
 
+.content  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-img-pair img  {
+    width: 170px;
+    height: auto;
+    border: 6px solid #3882F6;
+    border-radius: 12px;
+}
+
+.text-img-pair p  {
+    width: 170px;
+    text-align: center;
+}
+
+.quote  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-text  {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    width: 800px;
+    align-self: center;
+}
+.quote-person  {
+    font-weight: 800;
+    font-size: 16px;
+    width: 800px;
+    text-align: right;
+    align-self: center;
+}
 
